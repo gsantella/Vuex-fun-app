@@ -5,26 +5,7 @@
         <div class="col-md-12">
           <div class="card">
             <div class="card-body">
-              <h1>Hello Tuesday!</h1>
-              
-              <!-- Our New Components -->
-              <RandomColor />
-              <RandomColor />
-              <NewComponent />
-              <Counter />
-              <Counter />
-              <Counter />
-              <Counter />
-              <Hidden />
-              <Counter />
-              <HappySad />
-              <StarWars character="8" />
-              <StarWars character="9" />
-              <StarWars character="2" />
-              <RandomCat />
-              <RandomCat />
-              <RandomCat />
-
+              <h1>Hello Javascript!</h1>
 
             </div>
             
@@ -36,13 +17,7 @@
 </template>
 
 <script>
-import RandomColor from './Demo/RandomColor.vue'
-import NewComponent from './Demo/NewComponent.vue'
-import RandomCat from './Demo/RandomCat.vue'
-import StarWars from './Demo/StarWars.vue'
-import HappySad from './Demo/HappySad.vue'
-import Counter from './Demo/Counter.vue'
-import Hidden from './Demo/Hidden.vue'
+
 
 export default {
   data(){
@@ -56,13 +31,7 @@ export default {
   },
 
   components: {
-    RandomColor,
-    NewComponent,
-    RandomCat,
-    StarWars,
-    HappySad,
-    Counter,
-    Hidden
+   
   }
 }
 </script>

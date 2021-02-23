@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src= 
+    <p>{{ name }}</p>
   </div>
 </template>
 
@@ -10,12 +10,12 @@ export default {
 
   data() {
     return {
-      name: "cat",
+      name: "test",
     };
   },
 
   created() {
-    fetch(`https://anapioficeandfire.com/api/houses/1`)
+    fetch(`https://anapioficeandfire.com/api/houses/${this.id}`)
       .then((response) => response.json())
       .then((data) => (this.name = data.name));
   },

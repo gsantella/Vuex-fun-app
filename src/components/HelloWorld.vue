@@ -5,13 +5,8 @@
         <div class="col-md-12">
           <div class="card">
             <div class="card-body">
-              <h1>Hello!!!!</h1>
-              <P>{{stateData}}</P>
-
-                <router-link to="/update" class="btn btn-outline-secondary">
-                Next
-              </router-link>
-
+              <h1>Hello!!!! Changed!</h1>
+              
               <!-- Our New Components -->
               <RandomColor />
               <RandomColor />
@@ -41,13 +36,13 @@
 </template>
 
 <script>
-import RandomColor from './RandomColor.vue'
-import NewComponent from './NewComponent.vue'
-import RandomCat from './RandomCat.vue'
-import StarWars from './StarWars.vue'
-import HappySad from './HappySad.vue'
-import Counter from './Counter.vue'
-import Hidden from './Hidden.vue'
+import RandomColor from './Demo/RandomColor.vue'
+import NewComponent from './Demo/NewComponent.vue'
+import RandomCat from './Demo/RandomCat.vue'
+import StarWars from './Demo/StarWars.vue'
+import HappySad from './Demo/HappySad.vue'
+import Counter from './Demo/Counter.vue'
+import Hidden from './Demo/Hidden.vue'
 
 export default {
   data(){

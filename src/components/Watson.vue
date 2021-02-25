@@ -1,24 +1,31 @@
 <template>
     <div>
         <watson-comp-1 />
+        <div>My Links: <watson-comp-2 /></div>
         <watson-comp-3 text="Below Are Some Examples" />
         <div class="box"><watson-comp-4 /></div>
+        <div class="box">Loading<watson-comp-5 /></div>
+        <div class="box"><watson-comp-6 /></div>
         <div class="box">Loading<watson-comp-5 /></div>
     </div>
 </template>
 
 <script>
 import WatsonComp1 from './Watson/WatsonComp1.vue'
+import WatsonComp2 from './Watson/WatsonComp2.vue'
 import WatsonComp3 from './Watson/WatsonComp3.vue'
 import WatsonComp4 from './Watson/WatsonComp4.vue'
 import WatsonComp5 from './Watson/WatsonComp5.vue'
+import WatsonComp6 from './Watson/WatsonComp6.vue'
 export default {
     
     components: {
         WatsonComp1,
+        WatsonComp2,
         WatsonComp3,
         WatsonComp4,
-        WatsonComp5
+        WatsonComp5,
+        WatsonComp6
         
     }
 

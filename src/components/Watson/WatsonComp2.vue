@@ -1,16 +1,14 @@
 <template>
-    <div />
-    <!--<audio controls autoplay>
-        <source src="./music.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio> -->
+    <a href="https://github.com/TheLastVoidMage" target="_blank">Github</a>
 </template>
 
 <script>
 export default {
-    
 }
 </script>
 
 <style scoped>
+    a {
+        display: inline;
+    }
 </style>

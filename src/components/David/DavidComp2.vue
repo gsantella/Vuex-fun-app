@@ -1,5 +1,6 @@
 <template>
     <div v-bind:style="{backgroundColor: colorHex}">
+        <h3>Random Background Color</h3>
         <p>This background color has the hex code {{ colorHex }}.</p>
         <button v-on:click="changeColor()">Change Color</button>
     </div>

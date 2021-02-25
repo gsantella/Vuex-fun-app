@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h3>Die Roller</h3>
         <Button v-on:click="rollDie">Roll Die</Button>
         <p>{{ result }}</p>
     </div>

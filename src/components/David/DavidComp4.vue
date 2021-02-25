@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h3>Random Number Trivia</h3>
         <p>What is {{ question }}?</p>
         <input type="number" v-model="input">
         <Button v-on:click="submitAnswer">Submit</Button>

@@ -1,6 +1,6 @@
 <template>
     <div><hr>
-        <button v-on:click="changeBackground">Change Background</button>
+        <button id="btn" v-on:click="biggerSmaller">Touch</button>
     </div>
 </template>
 
@@ -11,8 +11,8 @@ export default {
         }
     },
     methods: {
-        changeBackground() {
-            document.body.style.backgroundColor = "red";
+        biggerSmaller() {
+            
         }
     }
 

@@ -12,5 +12,6 @@ export default {
     div {
         width: 100%;
         border-bottom-style: dashed;
+        margin-bottom: 10px;
     }
 </style>

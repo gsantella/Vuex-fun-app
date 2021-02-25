@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <p>This is a Cat
+    <div><hr>
         <img :src="imageUrl">
     </div>
 </template>
@@ -14,12 +13,13 @@ export default {
     },
 
     created() {
-        fetch('https://aws.random.cat/meow')
+        fetch('https://dog.ceo/api/breeds/image/random')
             .then(response => response.json())
-            .then(data => this.imageUrl = data.file);
+            .then(data => this.imageUrl = data.message);
     }
 }
 </script>
 
 <style scoped>
+    img { width: 64% }
 </style>

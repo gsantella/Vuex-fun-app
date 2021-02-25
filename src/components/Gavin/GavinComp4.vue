@@ -1,7 +1,6 @@
 <template>
-    <div>
-        <p>This is a Cat
-        <img :src="imageUrl">
+    <div><hr>
+        <p>ISS current latitude: {{latitude}}</p>
     </div>
 </template>
 
@@ -9,17 +8,18 @@
 export default {
     data() {
         return{
-            imageUrl:''
+            latitude:''
         }
     },
 
     created() {
-        fetch('https://aws.random.cat/meow')
+        fetch('https://api.wheretheiss.at/v1/satellites/25544')
             .then(response => response.json())
-            .then(data => this.imageUrl = data.file);
+            .then(data => this.latitude = data.latitude);
     }
 }
 </script>
+
 
 <style scoped>
 </style>

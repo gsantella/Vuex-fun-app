@@ -12,7 +12,6 @@ export default {
             imageUrl:''
         }
     },
-
     created() {
         fetch('https://aws.random.cat/meow')
             .then(response => response.json())

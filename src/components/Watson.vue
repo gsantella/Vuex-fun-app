@@ -6,9 +6,9 @@
         <div class="box"><watson-comp-4 /></div>
         <div class="box">Loading<watson-comp-5 /></div>
         <div class="box"><watson-comp-6 /></div>
-        <div class="box">Loading<watson-comp-7 /></div>
+        <div class="box"><watson-comp-7 /></div>
         <div class="box"><watson-comp-8 /></div>
-        <div class="box">Loading<watson-comp-9 /></div>
+        <div class="box"><watson-comp-9 /></div>
     </div>
 </template>
 

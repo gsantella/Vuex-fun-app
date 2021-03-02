@@ -6,7 +6,9 @@
         <div class="box"><watson-comp-4 /></div>
         <div class="box">Loading<watson-comp-5 /></div>
         <div class="box"><watson-comp-6 /></div>
-        <div class="box">Loading<watson-comp-5 /></div>
+        <div class="box">Loading<watson-comp-7 /></div>
+        <div class="box"><watson-comp-8 /></div>
+        <div class="box">Loading<watson-comp-9 /></div>
     </div>
 </template>
 
@@ -17,6 +19,9 @@ import WatsonComp3 from './Watson/WatsonComp3.vue'
 import WatsonComp4 from './Watson/WatsonComp4.vue'
 import WatsonComp5 from './Watson/WatsonComp5.vue'
 import WatsonComp6 from './Watson/WatsonComp6.vue'
+import WatsonComp7 from './Watson/WatsonComp7.vue'
+import WatsonComp8 from './Watson/WatsonComp8.vue'
+import WatsonComp9 from './Watson/WatsonComp9.vue'
 export default {
     
     components: {
@@ -25,7 +30,10 @@ export default {
         WatsonComp3,
         WatsonComp4,
         WatsonComp5,
-        WatsonComp6
+        WatsonComp6,
+        WatsonComp7,
+        WatsonComp8,
+        WatsonComp9
         
     }
 

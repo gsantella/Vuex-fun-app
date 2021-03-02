@@ -1,9 +1,9 @@
 <template>
     <div><hr>
         <h1>Trivia</h1>
-        <p>Trivia difficulty: {{trivia.difficulty}}</p>
-        <p>{{trivia.question}}</p><br><br><br>
-        <h7><b>{{trivia.correct_answer}}</b></h7>
+        <p>Trivia difficulty: {{trivia.results[0].difficulty}}</p>
+        <p>{{trivia.results[0].question}}</p>
+        <h7><b>{{trivia.results[0].correct_answer}}</b></h7>
     </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
     created() {
         fetch('https://opentdb.com/api.php?amount=1')
             .then(response => response.json())
-            .then(data => this.trivia = data.results);
+            .then(data => this.trivia = data);
     }
 }
 </script>

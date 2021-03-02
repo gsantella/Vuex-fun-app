@@ -8,7 +8,7 @@
         <div class="box"><watson-comp-6 /></div>
         <div class="box"><watson-comp-7 /></div>
         <div class="box"><watson-comp-8 /></div>
-        <div class="box"><watson-comp-9 /></div>
+        <div class="box"><watson-comp-9 text="Hello"/></div>
     </div>
 </template>
 

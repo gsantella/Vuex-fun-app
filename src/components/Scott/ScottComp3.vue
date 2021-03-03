@@ -12,11 +12,10 @@ export default {
             imageUrl:''
         }
     },
-
     created() {
         fetch('https://dog.ceo/api/breeds/image/random')
-            .then(response => response.json())
-            .then(data => this.imageUrl = data.file);
+        .then(response => response.json())
+        .then(data => this.imageUrl = data.file);
     }
 }
 </script>

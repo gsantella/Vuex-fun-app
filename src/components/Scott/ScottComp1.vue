@@ -1,26 +1,19 @@
 <template>
   <div>
-    <p>{{ name }}</p>
+    <h1>Welcome to Scott's Components</h1>
+    <p>You will see the components that Scott made below</p>
+    <img
+      src="https://i.insider.com/5e32f2a324306a19834af322?width=1000&format=jpeg&auto=webp"
+    />
   </div>
 </template>
 
 <script>
-export default {
-  props: ["id"],
-
-  data() {
-    return {
-      name: "test",
-    };
-  },
-
-  created() {
-    fetch(`https://anapioficeandfire.com/api/houses/${this.id}`)
-      .then((response) => response.json())
-      .then((data) => (this.name = data.name));
-  },
-};
+export default {};
 </script>
 
 <style scoped>
+img {
+  width: 60%;
+}
 </style>

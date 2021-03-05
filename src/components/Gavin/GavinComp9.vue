@@ -1,6 +1,6 @@
 <template>
     <div><hr>
-        <h1>Trivia</h1>
+        <h1>Trivia!</h1>
         <p>Trivia difficulty: {{trivia.results[0].difficulty}}</p>
         <p>{{trivia.results[0].question}}</p>
         <h7><b>{{trivia.results[0].correct_answer}}</b></h7>

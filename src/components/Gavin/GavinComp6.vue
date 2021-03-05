@@ -1,20 +1,36 @@
 <template>
     <div><hr>
-        <p>Double the number: {{number}}</p>
-        <button v-on:click="double">Double</button>
+        <button v-on:click="changeBackground">Change Background</button>
+        <button v-on:click="reset">Reset</button>
     </div>
 </template>
 
 <script>
+var red = true;
 export default {
     data() {
         return{
-            number:1
         }
     },
     methods: {
-        double() {
-            this.number *= 2;
+        
+        changeBackground() {
+            if (red)
+            {
+                document.body.style.backgroundColor = "green";
+                red = false;
+            }
+            else
+            {
+                document.body.style.backgroundColor = "red";
+                red = true;
+            }
+            
+        },
+
+        reset() {
+            document.body.style.backgroundColor = "white";
+            red = true;
         }
     }
 

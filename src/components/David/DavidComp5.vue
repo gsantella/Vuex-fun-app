@@ -1,7 +1,7 @@
 <template>
     <div>
         <h3>Random Programming Joke</h3>
-        <p style="white-space:pre-line; text-align:left">{{ joke }}</p>
+        <p style="white-space:pre-line">{{ joke }}</p>
     </div>
 </template>
 <script>

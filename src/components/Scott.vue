@@ -26,7 +26,6 @@ import ScottComp8 from './Scott/ScottComp8'
 import ScottComp9 from './Scott/ScottComp9'
 
 export default {
-  name: "App",
   components: {
     ScottComp1,
     ScottComp2,
@@ -37,7 +36,7 @@ export default {
     ScottComp7,
     ScottComp8,
     ScottComp9,
-  },
+  }
 };
 </script>
 

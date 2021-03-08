@@ -1,13 +1,15 @@
 <template>
-    <BenComp1 />
-    <BenComp2 />
-    <BenComp3 />
-    <BenComp4 />
-    <BenComp5 />
-    <BenComp6 />
-    <BenComp7 />
-    <BenComp8 />
-    <BenComp9 />
+    <div>
+        <BenComp1 />
+        <BenComp2 />
+        <BenComp3 />
+        <BenComp4 />
+        <BenComp5 />
+        <BenComp6 />
+        <BenComp7 />
+        <BenComp8 />
+        <BenComp9 />
+    </div>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <label>This in put box submits with the release of the enter key</label>
+    <label>This input box submits with the release of the enter key</label>
     <br />
     <input @keyup.enter="greet()" />
   </div>
@@ -9,7 +9,7 @@
 <script>
 export default {
   methods: {
-    greet: function (event) {
+    greet: function () {
       alert("You Submit using the enter button");
     },
   },

@@ -15,15 +15,15 @@
 </template>
 
 <script>
-import ScottComp1 from './Scott/ScottComp1'
-import ScottComp2 from './Scott/ScottComp2'
-import ScottComp3 from './Scott/ScottComp3'
-import ScottComp4 from './Scott/ScottComp4'
-import ScottComp5 from './Scott/ScottComp5'
-import ScottComp6 from './Scott/ScottComp6'
-import ScottComp7 from './Scott/ScottComp7'
-import ScottComp8 from './Scott/ScottComp8'
-import ScottComp9 from './Scott/ScottComp9'
+import ScottComp1 from './Scott/ScottComp1.vue'
+import ScottComp2 from './Scott/ScottComp2.vue'
+import ScottComp3 from './Scott/ScottComp3.vue'
+import ScottComp4 from './Scott/ScottComp4.vue'
+import ScottComp5 from './Scott/ScottComp5.vue'
+import ScottComp6 from './Scott/ScottComp6.vue'
+import ScottComp7 from './Scott/ScottComp7.vue'
+import ScottComp8 from './Scott/ScottComp8.vue'
+import ScottComp9 from './Scott/ScottComp9.vue'
 
 export default {
   components: {

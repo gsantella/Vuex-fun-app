@@ -15,15 +15,15 @@
 </template>
 
 <script>
-import ScottComp1 from "./components/ScottComp1";
-import ScottComp2 from "./components/ScottComp2";
-import ScottComp3 from "./components/ScottComp3";
-import ScottComp4 from "./components/ScottComp4";
-import ScottComp5 from "./components/ScottComp5";
-import ScottComp6 from "./components/ScottComp6";
-import ScottComp7 from "./components/ScottComp7";
-import ScottComp8 from "./components/ScottComp8";
-import ScottComp9 from "./components/ScottComp9";
+import ScottComp1 from "./ScottComp1";
+import ScottComp2 from "./ScottComp2";
+import ScottComp3 from "./ScottComp3";
+import ScottComp4 from "./ScottComp4";
+import ScottComp5 from "./ScottComp5";
+import ScottComp6 from "./ScottComp6";
+import ScottComp7 from "./ScottComp7";
+import ScottComp8 from "./ScottComp8";
+import ScottComp9 from "./ScottComp9";
 
 export default {
   name: "App",
